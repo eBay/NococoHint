@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+//process.argv.push(__dirname);
+
+var options = {
+		"src": "lib",
+		"test": "tests",
+		"report": "report"
+	};
+	
+options.src = process.argv[2];
+options.test = process.argv[3];
+options.report = process.argv[4];
+
+require('../lib/index.js').run(options);

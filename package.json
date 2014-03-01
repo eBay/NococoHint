@@ -1,0 +1,35 @@
+{
+  "name": "NococoHint",
+  "version": "0.1.4",
+  "description": "Tool for assembling Istanbul, JSHint & Mocha reports together.",
+  "author": {
+    "name": "Mahesh Dathrika",
+    "email": "mdathrika@ebay.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "main": "lib/index.js",
+  "bin": {
+	"NococoHint": "bin/NococoHint"
+  },
+  "dependencies": {
+	"istanbul": "~0.1.36",
+	"mocha-istanbul": "~0.2.0",
+	"jshint": "~2.1.4",
+	"mocha": "~1.12.0",
+	"wrench": "~1.5.4",
+	"async": "~0.2.9"
+  },
+  "repository": "",
+  "keywords": [
+    "Code Coverage",
+    "Istanbul",
+    "Mocha",
+    "xUnit",
+    "JSHint"
+  ],
+  "author": "Mahesh Dathrika",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
