@@ -1,5 +1,5 @@
 {
-  "name": "NococoHint",
+  "name": "nococohint",
   "version": "0.1.4",
   "description": "Tool for assembling Istanbul, JSHint & Mocha reports together.",
   "author": {

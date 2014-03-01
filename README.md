@@ -11,7 +11,7 @@ Install
 To install the most recent release from npm, run:
 
 ```javascript
-npm install NococoHint
+npm install nococohint
 ```
 
 Run
